@@ -42,15 +42,19 @@ El pipeline de GitHub Actions está configurado para ejecutarse automáticamente
 ## 2. Pipeline de Jenkins
 
 ### Descripción
-El pipeline de Jenkins también se ejecuta en cada push para proporcionar un entorno de integración continua independiente.
+El pipeline de Jenkins también se ejecuta automáticamente cada que detecte cambios y estos cambios son buscados cada 5 minutos para proporcionar un entorno de integración continua independiente.
 
 ### Evidencia
 
-#### Ejecución del Pipeline en Jenkins
-*Captura de pantalla del historial de ejecución del pipeline en Jenkins, mostrando el push y estado de ejecución*
+#### El work en Jenkins falla debito al bug de la calculadora
 
-#### Ejecución de Pruebas en Jenkins
-*Captura de pantalla del log de ejecución de pruebas en Jenkins, indicando el éxito o fallo de las mismas*
+![Pasted Graphic 6](https://github.com/user-attachments/assets/5f34dedb-d0fa-4115-8fb0-d30be5076424)
+
+
+#### Tras arreglar el bug, el work en Jenkins corre y se pueden ver los detalles
+
+![Jenkins](https://github.com/user-attachments/assets/1e17b83e-f097-4d8e-948f-be0d0e08a9b7)
+
 
 ---
 
