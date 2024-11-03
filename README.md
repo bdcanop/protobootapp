@@ -11,11 +11,31 @@ El pipeline de GitHub Actions está configurado para ejecutarse automáticamente
 
 ### Evidencia
 
-#### Ejecución de GitHub Actions
-*Captura de pantalla de la ejecución de GitHub Actions en el historial de ejecuciones (mostrar el push y el estado de ejecución)*
+#### Se genera un bug en la función cuadrado al modificar el comportamiento de esta multiplicando el resultado por 3, se hace push
 
-#### Ejecución de Pruebas en GitHub Actions
-*Captura de pantalla mostrando el log de la ejecución de pruebas exitosas o fallidas en GitHub Actions*
+<img width="1268" alt="Pasted Graphic 2" src="https://github.com/user-attachments/assets/681cbbe4-d847-4a62-bade-774589122d8f">
+
+
+#### Falla el build por bug 
+
+![Pasted Graphic](https://github.com/user-attachments/assets/9a8bdd5c-95ba-471c-a851-2f8ae3a4c545)
+
+#### Falla la build debido a error en la función cuadrado de calculadora
+
+![Pasted Graphic 1](https://github.com/user-attachments/assets/a45735e2-949c-4898-8d2e-419e0cfd8ce6)
+
+#### Arreglo el bug y subo los cambios
+
+<img width="1268" alt="Pasted Graphic 5" src="https://github.com/user-attachments/assets/5201d602-8509-43f0-a92b-b48e7c404a8b">
+
+#### Se carga la build
+
+![Pasted Graphic 3](https://github.com/user-attachments/assets/fe116b68-5a15-4d36-a40d-c1783db1fcb8)
+
+#### La build pasa
+
+![Pasted Graphic 4](https://github.com/user-attachments/assets/c516d41f-6f9e-4e1d-aa76-f85380cbcb20)
+
 
 ---
 
